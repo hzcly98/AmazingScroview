@@ -13,6 +13,7 @@
 		0D59ADFA1F9F477100BE5952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D59ADF91F9F477100BE5952 /* Assets.xcassets */; };
 		0D59ADFD1F9F477100BE5952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D59ADFB1F9F477100BE5952 /* LaunchScreen.storyboard */; };
 		0D59AE001F9F477100BE5952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59ADFF1F9F477100BE5952 /* main.m */; };
+		0D59AE081F9F47A800BE5952 /* AmazingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59AE071F9F47A800BE5952 /* AmazingScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0D59ADFC1F9F477100BE5952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D59ADFE1F9F477100BE5952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D59ADFF1F9F477100BE5952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D59AE061F9F47A800BE5952 /* AmazingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazingScrollView.h; sourceTree = "<group>"; };
+		0D59AE071F9F47A800BE5952 /* AmazingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazingScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0D59ADF11F9F477100BE5952 /* AppDelegate.m */,
 				0D59ADF31F9F477100BE5952 /* ViewController.h */,
 				0D59ADF41F9F477100BE5952 /* ViewController.m */,
+				0D59AE061F9F47A800BE5952 /* AmazingScrollView.h */,
+				0D59AE071F9F47A800BE5952 /* AmazingScrollView.m */,
 				0D59ADF61F9F477100BE5952 /* Main.storyboard */,
 				0D59ADF91F9F477100BE5952 /* Assets.xcassets */,
 				0D59ADFB1F9F477100BE5952 /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				0D59ADF51F9F477100BE5952 /* ViewController.m in Sources */,
 				0D59AE001F9F477100BE5952 /* main.m in Sources */,
 				0D59ADF21F9F477100BE5952 /* AppDelegate.m in Sources */,
+				0D59AE081F9F47A800BE5952 /* AmazingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AmazingSrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hzc.AmazingSrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AmazingSrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hzc.AmazingSrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
